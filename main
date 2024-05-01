@@ -33,7 +33,7 @@ def a():
             <p style="font-size: 30pt;">Введите данные для входа</p>
             <p>Логин:<input id="loginBox" type="text"/></p>
             <p>Пароль:<input id="passwordBox" type="password"/></p>
-            <a href="http://127.0.0.1:8080/index">Далее</a>
+            <a href="http://127.0.0.1:8080/index" onclick="return checkPassword();">Далее</a>
         </body>
         </html>
 """
